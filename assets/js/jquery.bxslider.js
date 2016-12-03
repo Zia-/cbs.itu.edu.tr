@@ -83,7 +83,7 @@
 		onSlidePrev: function() {}
 	}
 
-	$.fn.bxSlider = function(options){
+$.fn.bxSlider = function(options){
 
 		if(this.length == 0) return this;
 

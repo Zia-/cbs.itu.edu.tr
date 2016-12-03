@@ -4,7 +4,7 @@ Template URI: http://www.wpfreeware.com/news-reporter-wordpress-magazine-themes/
 Author: WpFreeware
 Author URI: http://www.wpfreeware.com
 Description: A Pro responsive magazine website template
-Version: 1.0 
+Version: 1.0
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -77,7 +77,10 @@ div{overflow:hidden}
 .slider2{width:250px}
 .content_area{margin-top:25px}
 .main_content{width:670px}
+.main_content1{width:595px} /*default 670px*/
+.main_content2{width:100%} /*default 670px*/
 .left_coloum{width:450px}
+.left_coloum2{width:100%} /*default 450px*/
 .single_left_coloum_wrapper{position:relative; margin-left:-10px; margin-bottom:30px}
 .single_left_coloum_wrapper .title{margin-left:10px}
 .title{border-bottom:4px solid #CF0000; font-family:'bebasregular'; font-size:20px; word-spacing:2px}
@@ -105,6 +108,8 @@ div{overflow:hidden}
 .editorial h3{color:#CF0000}
 .sidebar{width:250px}
 .single_sidebar{margin-bottom:20px}
+.sidebar1{width:313px} /*default 250px*/
+.single_sidebar1{margin-bottom:20px}
 .news-letter{padding:10px; background:#E4E4E4}
 .news-letter h2{font-family:bebasregular; font-size:20px; margin-bottom:5px; word-spacing:2px}
 .news-letter p{}
@@ -129,3 +134,19 @@ div{overflow:hidden}
 .footer_menu ul li a{display:inline-block; padding:0 22px}
 .footer_menu ul li a:hover{}
 .copyright_text{line-height:17px; text-align:center}
+
+/*Slider CSS*/
+#slideshow {
+  margin: 10px auto;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}

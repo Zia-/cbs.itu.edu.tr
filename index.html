@@ -4,6 +4,7 @@
 <title>NIRC4GIT</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="images/tablogo.jpg">
 <link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="assets/font/font.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="screen" />
@@ -29,18 +30,21 @@
             <li><a href="#" class="twitter"></a></li>
           </ul>-->
         </div>
-        <div class="search">
+        <!--<div class="search">
           <form action="#" method="post" id="search_form">
             <input type="text" value="" id="s" />
             <input type="submit" id="searchform" value="search" />
             <input type="hidden" value="post" name="post_type" />
           </form>
-        </div>
+        </div>-->
+        <!--<div id="cse" style="width: 300px;">Loading</div>-->
+
       </div>
     </div>
+    <br>
     <div class="main_menu_area">
       <ul id="nav">
-        <li><a href="">ITUNAV</a>
+        <li><a href="https://play.google.com/store/apps/details?id=in.itunav.indoormaps&hl=en" target="_blank">ITUNAV</a>
           <!--<ul>
             <li><a href="#">Single item</a></li>
             <li><a href="#">Single item</a></li>
@@ -57,7 +61,7 @@
             <li><a href="#">Single item</a></li>
           </ul>-->
         </li>
-        <li><a href="http://maps.itu.edu.tr/" target="_blank">Campus Finder</a></li>
+        <li><a href="campusfinder/" target="_blank">Campus Finder</a></li>
         <li><a href="http://fires.itu.edu.tr/" target="_blank">Uyanbil</a>
           <!--<ul>
             <li><a href="#">Single item</a></li>
@@ -100,12 +104,12 @@
               <p>An Indoor Navigation System that lets one position himself/herself
                 within a closed structure where Global Positioning System signals do not work.
               </p>
-              <a class="readmore" href="#">read more</a> </div>
+              <a class="readmore" href="https://play.google.com/store/apps/details?id=in.itunav.indoormaps&hl=en" target="_blank">read more</a> </div>
             <div class="single_left_coloum floatleft"> <img src="images/campusproject.jpg" alt="" />
               <h3>Campus Finder</h3>
               <p>A web-GIS system of <a href="http://www.itu.edu.tr/en">Istanbul Technical University</a> that
                 provides geo-tagged data, POIs, and routes between destinations.</p>
-              <a class="readmore" href="http://maps.itu.edu.tr/" target="_blank">read more</a> </div>
+              <a class="readmore" href="campusfinder/" target="_blank">read more</a> </div>
             <div class="single_left_coloum floatleft"> <img src="images/fireproject.jpg" alt="" />
               <h3>UYANBIL</h3>
               <p>A near real-time forest fire monitoring system that uses different
@@ -363,6 +367,19 @@
     doit = setTimeout(calculateHeight, 1000);
   };
 </script>
+
+<!--Custom Search Button-->
+<!--<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('017643444788069204610:4gvhea_mvga');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.setAutoComplete(true);
+    customSearchControl.draw('cse', options);
+  }, true);
+</script>-->
 
 </body>
 </html>
